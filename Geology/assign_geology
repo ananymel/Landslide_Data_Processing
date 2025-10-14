@@ -1,0 +1,249 @@
+import pandas as pd
+import numpy as np
+import geopandas as gpd
+from shapely.geometry import box
+from pathlib import Path
+from tqdm import tqdm
+import polars as pl
+from datetime import datetime
+gpd.options.use_pygeos = True
+
+
+#%%
+
+# Helper function for timestamped print statements
+def log(message):
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {message}", flush=True)
+
+
+
+# # This code generates duplicate rows for the grids that intersect with different geology polygons
+i = 24
+slope_crs = "EPSG:4326"  # Assuming slope data in WGS 84 CRS
+
+slope_data_rect = f"/mnt/c/Users/melis/Desktop/add_slope_parquet/10_07_25_gdf_parquet_version_repaired_serial/grid_numbers_added/grid_numbers_fixed/gdf_rect{i}_slope_inside.parquet"
+log("Starting to read slope file...")
+
+#slope_data_rect1 = pl.read_parquet(slope_data_rect1, columns=["X_max", "X_min", "Y_max", "Y_min"])
+slope_data_rect = pl.read_parquet(slope_data_rect, columns=["X_max", "X_min", "Y_max", "Y_min", "Slope Value"])
+log("Slope file read successfully.")
+
+#%%
+
+log("Converting slope data from Polars to Pandas...")
+slope_data_rect = slope_data_rect.to_pandas()
+log("Conversion from Polars to Pandas completed.")
+
+#%%
+slope_data_rect.head()
+
+#%%
+
+# === Load geology polygons ===
+slope_crs = "EPSG:4326" 
+log("Starting to read geology file...")
+geology_gdf = gpd.read_file(r"/mnt/c/Users/melis/Desktop/10_09_geologyand_landslide/10_09_25_geology/shapefiles_Geology/shapefiles_Geology/GMC_geo_poly.shp")
+if geology_gdf.crs is None or geology_gdf.crs.to_string() != slope_crs:
+    log("Reprojecting geology shapefile to match slope CRS...")
+    geology_gdf = geology_gdf.to_crs(slope_crs)
+log("Geology file read and CRS verified.")
+
+
+#%% Downcast the data
+
+slope_data_rect["X_min"] = pd.to_numeric(slope_data_rect["X_min"], downcast="float")
+slope_data_rect["Y_min"] = pd.to_numeric(slope_data_rect["Y_min"], downcast="float")
+slope_data_rect["X_max"] = pd.to_numeric(slope_data_rect["X_max"], downcast="float")
+slope_data_rect["Y_max"] = pd.to_numeric(slope_data_rect["Y_max"], downcast="float")
+
+#%% Convert slope grids to polygons
+
+log("Converting slope grids into polygons...")
+slope_gdf = gpd.GeoDataFrame(
+    slope_data_rect,
+    geometry=[
+        box(xmin, ymin, xmax, ymax)
+        for xmin, ymin, xmax, ymax in zip(
+            slope_data_rect["X_min"],
+            slope_data_rect["Y_min"],
+            slope_data_rect["X_max"],
+            slope_data_rect["Y_max"],
+        )
+    ],
+    crs=slope_crs
+)
+log("Slope grids converted into polygons.")
+
+
+#%%
+
+# === Step 1: Candidate matches ===
+log("Performing spatial join between slope grids and geology polygons...")
+tqdm.pandas()  # Enable tqdm for pandas operations
+
+candidates = gpd.sjoin(
+    slope_gdf.progress_apply(lambda x: x),  # Wrap slope_gdf with tqdm for progress tracking
+    geology_gdf[["geometry", "PTYPE"]],
+    how="left",
+    predicate="intersects"
+)
+log("Spatial join completed.")
+
+
+#%%
+
+candidates.head()
+
+#%%
+
+# Check for missing values in the PTYPE column
+missing_ptype_count = candidates["PTYPE"].isna().sum()
+log(f"Number of missing values in PTYPE column: {missing_ptype_count}")
+
+# Get the total length of the candidates DataFrame
+total_candidates_length = len(candidates)
+log(f"Total number of rows in candidates DataFrame: {total_candidates_length}")
+
+total_initial_length = len(slope_data_rect)
+log(f"Total number of rows in initial DataFrame: {total_initial_length}")
+
+
+#%%
+
+log("Identifying grids with duplicates...")
+dupes = candidates[candidates.duplicated(keep=False)]  # Check for duplicates across all columns
+
+log(f"Total slope grids: {len(slope_gdf)}")
+log(f"Grids with multiple geology overlaps: {dupes.index.nunique()}")
+
+#%%# Count occurrences of each slope grid in the spatial join
+duplicate_counts = candidates.index.value_counts()
+
+# Number of slope grids with multiple matches
+num_multiple_matches = (duplicate_counts > 1).sum()
+log(f"Number of slope grids with multiple geology overlaps: {num_multiple_matches}")
+
+# Maximum number of matches for a single slope grid
+max_matches = duplicate_counts.max()
+log(f"Maximum number of matches for a single slope grid: {max_matches}")
+
+#%%
+# Check for unmatched slope grids (no geology intersection)
+log("Checking for unmatched slope grids...")
+
+# Count rows where index_right is NaN (no geology match)
+unmatched_count = candidates["index_right"].isna().sum()
+total_grids = len(candidates)
+matched_count = total_grids - unmatched_count
+
+log(f"Total slope grids: {total_grids}")
+log(f"Matched with geology: {matched_count}")
+log(f"Unmatched (no geology): {unmatched_count}")
+log(f"Match rate: {(matched_count / total_grids) * 100:.2f}%")
+
+# Alternative: Check using PTYPE column
+unmatched_ptype = candidates["PTYPE"].isna().sum()
+log(f"Unmatched via PTYPE check: {unmatched_ptype}")
+
+# Show a few examples of unmatched grids
+if unmatched_count > 0:
+    log("Sample of unmatched grids:")
+    unmatched_grids = candidates[candidates["index_right"].isna()][["X_min", "Y_min", "X_max", "Y_max", "Slope Value", "PTYPE"]].head(10)
+    print(unmatched_grids)
+else:
+    log("All slope grids have geology matches!")
+
+
+#%%
+
+log("Calculating intersection areas for each row in candidates...")
+
+if unmatched_count==0:
+    # Add a new column for intersection area
+    candidates["intersection_area"] = candidates.apply(
+        lambda row: row.geometry.intersection(
+            geology_gdf.loc[row.index_right, "geometry"]
+        ).area if row.index_right is not None else 0,
+        axis=1
+    )
+
+    log("Intersection areas calculated successfully.")
+
+    # Check the first few rows to verify
+    log("Preview of candidates with intersection areas:")
+    print(candidates.head())
+
+else:
+    print("There are unmatched geology")
+    # Add a new column for intersection area
+    candidates["intersection_area"] = candidates.apply(
+    lambda row: row.geometry.intersection(
+        geology_gdf.loc[row.index_right, "geometry"]
+    ).area if pd.notna(row.index_right) else 0,  # ✅ Use pd.notna() instead
+    axis=1
+)
+
+    log("Intersection areas calculated successfully.")
+
+    # Check the first few rows to verify
+    log("Preview of candidates with intersection areas:")
+    print(candidates.head())
+
+
+#%%
+
+log("Resolving duplicates by keeping the largest overlap...")
+
+# Sort by overlap area in descending order and drop duplicates based on slope grid index
+candidates_resolved = candidates.sort_values("intersection_area", ascending=False).drop_duplicates(subset=["geometry"])
+
+log(f"Number of rows after resolving duplicates: {len(candidates_resolved)}")
+
+
+#%%
+
+#Sanity checks
+
+assert len(candidates_resolved) == len(slope_gdf)
+
+#are there any duplicates?
+dupes = candidates_resolved.duplicated(subset=["X_min","Y_min","X_max","Y_max"]).sum()
+print("Duplicate slope grids after resolution:", dupes)
+
+
+#how many missing geology/ptype I have
+missing = candidates_resolved["PTYPE"].isna().sum()
+print("Grids with missing geology:", missing)
+
+#coverage ratio
+
+coverage_ratio = 1 - (missing / len(candidates_resolved))
+print("Coverage ratio:", coverage_ratio)
+
+#%%
+
+candidates_resolved.head()
+
+#%%
+
+log("Dropping unnecessary columns before saving...")
+candidates_resolved_cleaned = candidates_resolved.drop(columns=["geometry", "index_right", "intersection_area"], errors="ignore")
+
+log("Saving the cleaned DataFrame to the specified directory...")
+output_path = Path(f"/mnt/c/Users/melis/Desktop/10_09_geologyand_landslide/10_09_25_geology/slope_geology_10_10_25/gdf_rect{i}_slope_geology_nogridnumber.parquet")
+candidates_resolved_cleaned.to_parquet(output_path, index=False)
+
+log(f"Cleaned DataFrame saved to {output_path}.")
+
+
+#%%
+
+#read_file head
+rect = pd.read_parquet(fr"/mnt/c/Users/melis/Desktop/10_09_geologyand_landslide/10_09_25_geology/slope_geology_10_10_25/gdf_rect{i}_slope_geology_nogridnumber.parquet")
+print(rect.head())
+#print how many rows
+print(len(rect))
+#compare size with slope only no grid number
+
+#%%
+
