@@ -1,0 +1,30 @@
+SUMMARY OF ROW AND COLUMN NUMBERS:
+
+Year 2017: rows = 16,543, columns = 370
+Year 2018: rows = 16,540, columns = 370
+Year 2019: rows = 16,538, columns = 370
+Year 2020: rows = 16,532, columns = 371
+Year 2021: rows = 16,551, columns = 370
+Year 2022: rows = 16,545, columns = 370
+Year 2023: rows = 16,527, columns = 370
+Year 2024: rows = 16,511, columns = 172
+
+=== Summary ===
+2017: 16,543 rows, 370 columns
+2018: 16,540 rows, 370 columns
+2019: 16,538 rows, 370 columns
+2020: 16,532 rows, 371 columns
+2021: 16,551 rows, 370 columns
+2022: 16,545 rows, 370 columns
+2023: 16,527 rows, 370 columns
+2024: 16,511 rows, 172 columns
+
+2021] rows: 16,551 | unique bboxes: 16,551 | duplicates: 0
+[2017] rows: 16,543 | unique: 16,543 | dups: 0 | matched to master: 16,529 | new IDs: 14 | next_id now: 16566
+[2018] rows: 16,540 | unique: 16,540 | dups: 0 | matched to master: 16,533 | new IDs: 7 | next_id now: 16573
+[2019] rows: 16,540 | unique: 16,540 | dups: 0 | matched to master: 16,540 | new IDs: 0 | next_id now: 16573
+[2020] rows: 16,532 | unique: 16,532 | dups: 0 | matched to master: 16,530 | new IDs: 2 | next_id now: 16575
+[2021] rows: 16,551 | unique: 16,551 | dups: 0 | matched to master: 16,551 | new IDs: 0 | next_id now: 16575
+[2022] rows: 16,545 | unique: 16,545 | dups: 0 | matched to master: 16,542 | new IDs: 3 | next_id now: 16578
+[2023] rows: 16,527 | unique: 16,527 | dups: 0 | matched to master: 16,526 | new IDs: 1 | next_id now: 16579
+[2024] rows: 16,511 | unique: 16,511 | dups: 0 | matched to master: 16,510 | new IDs: 1 | next_id now: 16580
