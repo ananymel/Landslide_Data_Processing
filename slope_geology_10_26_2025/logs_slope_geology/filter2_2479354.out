@@ -1,0 +1,16 @@
+TACC:  Starting up job 2479354 
+TACC:  Starting parallel tasks... 
+[2025-10-19 20:30:54] Reading geology polygons...
+[2025-10-19 20:30:55] Reprojecting geology shapefile...
+[2025-10-19 20:30:55] Loaded geology with 13924 polygons.
+[2025-10-19 20:30:55] Reading gdf_rect4_slope_inside.parquet...
+[2025-10-19 20:30:55] gdf_rect4_slope_inside.parquet: 145858298 rows in 730 chunks
+[2025-10-19 22:43:57] gdf_rect4_slope_inside.parquet: concatenated 145858298 rows after per-chunk dedup
+[2025-10-19 22:43:57] Column names:  ['X_max', 'X_min', 'Y_max', 'Y_min', 'Slope Value', 'geometry', 'index_right', 'PTYPE', 'intersection_area']
+[2025-10-19 22:44:03] column names of candidates_resolved: ['X_max', 'X_min', 'Y_max', 'Y_min', 'Slope Value', 'PTYPE']
+        X_max       X_min      Y_max      Y_min  Slope Value PTYPE
+0 -122.408611 -122.409537  37.269167  37.268241     3.166975     Q
+1 -122.013889 -122.014815  37.267778  37.266852     0.299548   Qoa
+2 -122.079537 -122.080463  37.267778  37.266852    35.974380   KJf
+[2025-10-19 22:44:33] ✅ Saved /scratch/10725/mfidansoy1777/13_10_25_geology_joined/slurm/gdf_rect4_slope_geology.parquet with 145858298 rows
+TACC:  Shutdown complete. Exiting. 
