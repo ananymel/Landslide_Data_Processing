@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH -J match_geology
+#SBATCH -o /scratch/10725/mfidansoy1777//logs/filter15_%j.out
+#SBATCH -e /scratch/10725/mfidansoy1777//logs/filter15_%j.err
+#SBATCH -p icx
+#SBATCH -N 1
+#SBATCH --ntasks=1
+#SBATCH -c 64
+
+#SBATCH -t  24:00:00 
+#SBATCH --mail-user=melis.fidansoy.ucla@gmail.com
+#SBATCH --mail-type=ALL
+#SBATCH -A DS-portal-mfidansoy       # Allocation name (req'd if you have more than 1)
+
+# === Load Python ===
+export PYTHONPATH=$HOME/.local/lib/python3.9/site-packages:$PYTHONPATH
+
+
+# === Run the script ===
+ibrun python /scratch/10725/mfidansoy1777/python_files/match_geology_15.py
