@@ -1,0 +1,81 @@
+[2025-10-26 15:46:09] ✅ Saved full concat for rect1 with 2720152 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect1/merged/gdf_rect1_concat_full.parquet
+[2025-10-26 15:46:10] ✅ Saved missing concat for rect1 with 409782 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect1/merged/gdf_rect1_missing_concat.parquet
+[2025-10-26 15:46:10] 📊 Rect1 summary: Total rows = 2720152, Missing rows = 409782 (15.06% missing)
+[2025-10-26 15:46:41] ✅ Saved full concat for rect2 with 43038010 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect2/merged/gdf_rect2_concat_full.parquet
+[2025-10-26 15:46:45] ✅ Saved missing concat for rect2 with 2216120 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect2/merged/gdf_rect2_missing_concat.parquet
+[2025-10-26 15:46:45] 📊 Rect2 summary: Total rows = 43038010, Missing rows = 2216120 (5.15% missing)
+[2025-10-26 15:49:22] ✅ Saved full concat for rect3 with 276480074 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect3/merged/gdf_rect3_concat_full.parquet
+[2025-10-26 15:49:38] ✅ Saved missing concat for rect3 with 12415320 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect3/merged/gdf_rect3_missing_concat.parquet
+[2025-10-26 15:49:38] 📊 Rect3 summary: Total rows = 276480074, Missing rows = 12415320 (4.49% missing)
+[2025-10-26 15:50:51] ✅ Saved full concat for rect4 with 145858298 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect4/merged/gdf_rect4_concat_full.parquet
+[2025-10-26 15:51:01] ✅ Saved missing concat for rect4 with 7338152 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect4/merged/gdf_rect4_missing_concat.parquet
+[2025-10-26 15:51:01] 📊 Rect4 summary: Total rows = 145858298, Missing rows = 7338152 (5.03% missing)
+/scratch/10725/mfidansoy1777/ndvi_match/python_files/ndvi_concat.py:27: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df_full = pd.concat([pd.read_parquet(f) for f in full_files], ignore_index=True)
+[2025-10-26 15:53:06] ✅ Saved full concat for rect5 with 259084975 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect5/merged/gdf_rect5_concat_full.parquet
+[2025-10-26 15:53:21] ✅ Saved missing concat for rect5 with 14255288 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect5/merged/gdf_rect5_missing_concat.parquet
+[2025-10-26 15:53:21] 📊 Rect5 summary: Total rows = 259084975, Missing rows = 14255288 (5.50% missing)
+[2025-10-26 15:55:04] ✅ Saved full concat for rect6 with 212546424 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect6/merged/gdf_rect6_concat_full.parquet
+[2025-10-26 15:55:16] ✅ Saved missing concat for rect6 with 8989615 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect6/merged/gdf_rect6_missing_concat.parquet
+[2025-10-26 15:55:16] 📊 Rect6 summary: Total rows = 212546424, Missing rows = 8989615 (4.23% missing)
+/scratch/10725/mfidansoy1777/ndvi_match/python_files/ndvi_concat.py:27: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df_full = pd.concat([pd.read_parquet(f) for f in full_files], ignore_index=True)
+[2025-10-26 15:57:39] ✅ Saved full concat for rect7 with 308882201 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect7/merged/gdf_rect7_concat_full.parquet
+[2025-10-26 15:57:51] ✅ Saved missing concat for rect7 with 13425022 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect7/merged/gdf_rect7_missing_concat.parquet
+[2025-10-26 15:57:51] 📊 Rect7 summary: Total rows = 308882201, Missing rows = 13425022 (4.35% missing)
+[2025-10-26 16:00:15] ✅ Saved full concat for rect8 with 309176541 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect8/merged/gdf_rect8_concat_full.parquet
+[2025-10-26 16:00:29] ✅ Saved missing concat for rect8 with 11292379 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect8/merged/gdf_rect8_missing_concat.parquet
+[2025-10-26 16:00:29] 📊 Rect8 summary: Total rows = 309176541, Missing rows = 11292379 (3.65% missing)
+[2025-10-26 16:02:19] ✅ Saved full concat for rect9 with 211813714 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect9/merged/gdf_rect9_concat_full.parquet
+[2025-10-26 16:02:32] ✅ Saved missing concat for rect9 with 10080333 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect9/merged/gdf_rect9_missing_concat.parquet
+[2025-10-26 16:02:32] 📊 Rect9 summary: Total rows = 211813714, Missing rows = 10080333 (4.76% missing)
+[2025-10-26 16:05:01] ✅ Saved full concat for rect11 with 315977898 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect11/merged/gdf_rect11_concat_full.parquet
+[2025-10-26 16:05:12] ✅ Saved missing concat for rect11 with 11722030 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect11/merged/gdf_rect11_missing_concat.parquet
+[2025-10-26 16:05:12] 📊 Rect11 summary: Total rows = 315977898, Missing rows = 11722030 (3.71% missing)
+/scratch/10725/mfidansoy1777/ndvi_match/python_files/ndvi_concat.py:27: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df_full = pd.concat([pd.read_parquet(f) for f in full_files], ignore_index=True)
+
+
+[2025-10-26 16:05:38] ✅ Saved full concat for rect12 with 56082601 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/merged/gdf_rect12_concat_full.parquet
+[2025-10-26 16:05:42] ✅ Saved missing concat for rect12 with 3346947 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/merged/gdf_rect12_missing_concat.parquet
+[2025-10-26 16:05:42] 📊 Rect12 summary: Total rows = 56082601, Missing rows = 3346947 (5.97% missing)
+[2025-10-26 16:08:09] ✅ Saved full concat for rect13 with 305793364 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect13/merged/gdf_rect13_concat_full.parquet
+[2025-10-26 16:08:24] ✅ Saved missing concat for rect13 with 11703705 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect13/merged/gdf_rect13_missing_concat.parquet
+[2025-10-26 16:08:24] 📊 Rect13 summary: Total rows = 305793364, Missing rows = 11703705 (3.83% missing)
+[2025-10-26 16:10:34] ✅ Saved full concat for rect14 with 316412402 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect14/merged/gdf_rect14_concat_full.parquet
+[2025-10-26 16:10:45] ✅ Saved missing concat for rect14 with 11589734 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect14/merged/gdf_rect14_missing_concat.parquet
+[2025-10-26 16:10:45] 📊 Rect14 summary: Total rows = 316412402, Missing rows = 11589734 (3.66% missing)
+[2025-10-26 16:11:52] ✅ Saved full concat for rect15 with 124916388 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect15/merged/gdf_rect15_concat_full.parquet
+[2025-10-26 16:11:57] ✅ Saved missing concat for rect15 with 5965583 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect15/merged/gdf_rect15_missing_concat.parquet
+[2025-10-26 16:11:57] 📊 Rect15 summary: Total rows = 124916388, Missing rows = 5965583 (4.78% missing)
+[2025-10-26 16:14:09] ✅ Saved full concat for rect16 with 315634270 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect16/merged/gdf_rect16_concat_full.parquet
+[2025-10-26 16:14:27] ✅ Saved missing concat for rect16 with 11388711 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect16/merged/gdf_rect16_missing_concat.parquet
+[2025-10-26 16:14:27] 📊 Rect16 summary: Total rows = 315634270, Missing rows = 11388711 (3.61% missing)
+[2025-10-26 16:15:58] ✅ Saved full concat for rect17 with 188398487 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect17/merged/gdf_rect17_concat_full.parquet
+[2025-10-26 16:16:11] ✅ Saved missing concat for rect17 with 9046348 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect17/merged/gdf_rect17_missing_concat.parquet
+[2025-10-26 16:16:11] 📊 Rect17 summary: Total rows = 188398487, Missing rows = 9046348 (4.80% missing)
+[2025-10-26 16:17:53] ✅ Saved full concat for rect18 with 192029782 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect18/merged/gdf_rect18_concat_full.parquet
+[2025-10-26 16:18:03] ✅ Saved missing concat for rect18 with 6155178 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect18/merged/gdf_rect18_missing_concat.parquet
+[2025-10-26 16:18:03] 📊 Rect18 summary: Total rows = 192029782, Missing rows = 6155178 (3.21% missing)
+-bash: __vsc_prompt_cmd_original: command not found
+
+
+[2025-10-26 20:58:55] ✅ Saved full concat for rect19 with 291400000 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect19/merged/gdf_rect19_concat_full.parquet
+[2025-10-26 20:59:21] ✅ Saved missing concat for rect19 with 10934626 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect19/merged/gdf_rect19_missing_concat.parquet
+[2025-10-26 20:59:21] 📊 Rect19 summary: Total rows = 291400000, Missing rows = 10934626 (3.75% missing)
+[2025-10-26 21:01:38] ✅ Saved full concat for rect20 with 276020365 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect20/merged/gdf_rect20_concat_full.parquet
+[2025-10-26 21:01:50] ✅ Saved missing concat for rect20 with 12051545 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect20/merged/gdf_rect20_missing_concat.parquet
+[2025-10-26 21:01:50] 📊 Rect20 summary: Total rows = 276020365, Missing rows = 12051545 (4.37% missing)
+[2025-10-26 21:03:34] ✅ Saved full concat for rect21 with 215058006 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect21/merged/gdf_rect21_concat_full.parquet
+[2025-10-26 21:03:42] ✅ Saved missing concat for rect21 with 2627582 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect21/merged/gdf_rect21_missing_concat.parquet
+[2025-10-26 21:03:42] 📊 Rect21 summary: Total rows = 215058006, Missing rows = 2627582 (1.22% missing)
+[2025-10-26 21:05:32] ✅ Saved full concat for rect22 with 214742568 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect22/merged/gdf_rect22_concat_full.parquet
+[2025-10-26 21:05:50] ✅ Saved missing concat for rect22 with 8250083 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect22/merged/gdf_rect22_missing_concat.parquet
+[2025-10-26 21:05:50] 📊 Rect22 summary: Total rows = 214742568, Missing rows = 8250083 (3.84% missing)
+[2025-10-26 21:07:04] ✅ Saved full concat for rect23 with 111000000 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect23/merged/gdf_rect23_concat_full.parquet
+[2025-10-26 21:07:13] ✅ Saved missing concat for rect23 with 5351462 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect23/merged/gdf_rect23_missing_concat.parquet
+[2025-10-26 21:07:13] 📊 Rect23 summary: Total rows = 111000000, Missing rows = 5351462 (4.82% missing)
+[2025-10-26 21:07:17] ✅ Saved full concat for rect24 with 5964689 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect24/merged/gdf_rect24_concat_full.parquet
+[2025-10-26 21:07:17] ✅ Saved missing concat for rect24 with 242330 rows → /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect24/merged/gdf_rect24_missing_concat.parquet
+[2025-10-26 21:07:17] 📊 Rect24 summary: Total rows = 5964689, Missing rows = 242330 (4.06% missing)
+-bash: __vsc_prompt_cmd_original: command not found
