@@ -1,0 +1,14 @@
+[2025-10-26 23:23:10] Loading NDVI bounding boxes...
+[2025-10-26 23:23:11] Loaded 16579 NDVI bounding boxes
+[2025-10-26 23:23:49] Full dataset rows: 316142793
+[2025-10-26 23:23:49] Originally missing NDVI rows: 11750018
+[2025-10-27 00:10:29] Resolved 11750018 of 11750018 missing rows
+[2025-10-27 00:10:29]   • No overlaps: 0
+[2025-10-27 00:10:29]   • Single overlaps: 0
+[2025-10-27 00:10:29]   • Multiple overlaps: 11750018
+[2025-10-27 00:10:29]   🔎 Example multi-match cells: [(-116.57120365791417, 35.68787034470961, [np.int64(14031), np.int64(14110)]), (-116.97129625079899, 35.68787034470961, [np.int64(13368), np.int64(13454)]), (-117.07148143605734, 35.68787034470961, [np.int64(13281), np.int64(13193)]), (-116.17157402799266, 35.68787034470961, [np.int64(14713), np.int64(14641)]), (-116.22203699099248, 35.68787034470961, [np.int64(14568), np.int64(14641)])]
+[2025-10-27 00:12:16] ✅ Total rows: 316142793
+[2025-10-27 00:12:16] ✅ Originally missing: 11750018
+[2025-10-27 00:12:16] ✅ Filled successfully: 11750018
+[2025-10-27 00:12:16] ❌ Still missing after fix: 0
+[2025-10-27 00:13:58] ✅ Saved filled file: /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect19/merged/gdf_rect19_concat_full_filled.parquet
