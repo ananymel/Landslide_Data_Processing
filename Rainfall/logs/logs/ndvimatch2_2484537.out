@@ -1,0 +1,12 @@
+TACC:  Starting up job 2484537 
+TACC:  Starting parallel tasks... 
+Traceback (most recent call last):
+  File "/scratch/10725/mfidansoy1777/ndvi_match/ndvi_match.py", line 6, in <module>
+    import pandas as pd
+  File "/home1/10725/mfidansoy1777/.local/lib/python3.9/site-packages/pandas/__init__.py", line 19, in <module>
+    raise ImportError(
+ImportError: Unable to import required dependencies:
+numpy: No module named 'numpy'
+pytz: No module named 'pytz'
+TACC:  MPI job exited with code: 1 
+TACC:  Shutdown complete. Exiting. 

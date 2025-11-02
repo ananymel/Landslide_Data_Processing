@@ -1,0 +1,565 @@
+[2025-10-25 18:11:30] Loading JSON: /scratch/10725/mfidansoy1777/bbox_master_map.json
+[2025-10-25 18:11:30] Loaded 16579 JSON tiles
+[2025-10-25 18:11:30] Processing gdf_rect12_slope_geology.parquet with Arrow streaming...
+[2025-10-25 18:12:10] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part0.parquet
+[2025-10-25 18:12:10] ⚠️  Found 5063 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part0.parquet
+[2025-10-25 18:12:49] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part1.parquet
+[2025-10-25 18:12:49] ⚠️  Found 4740 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part1.parquet
+[2025-10-25 18:13:28] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part2.parquet
+[2025-10-25 18:13:28] ⚠️  Found 4401 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part2.parquet
+[2025-10-25 18:14:07] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part3.parquet
+[2025-10-25 18:14:08] ⚠️  Found 4065 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part3.parquet
+[2025-10-25 18:14:47] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part4.parquet
+[2025-10-25 18:14:47] ⚠️  Found 4039 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part4.parquet
+[2025-10-25 18:15:25] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part5.parquet
+[2025-10-25 18:15:26] ⚠️  Found 3823 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part5.parquet
+[2025-10-25 18:16:04] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part6.parquet
+[2025-10-25 18:16:04] ⚠️  Found 3665 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part6.parquet
+[2025-10-25 18:16:43] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part7.parquet
+[2025-10-25 18:16:43] ⚠️  Found 3652 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part7.parquet
+[2025-10-25 18:17:22] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part8.parquet
+[2025-10-25 18:17:22] ⚠️  Found 3648 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part8.parquet
+[2025-10-25 18:18:01] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part9.parquet
+[2025-10-25 18:18:01] ⚠️  Found 3686 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part9.parquet
+[2025-10-25 18:18:40] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part10.parquet
+[2025-10-25 18:18:40] ⚠️  Found 3679 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part10.parquet
+[2025-10-25 18:19:19] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part11.parquet
+[2025-10-25 18:19:19] ⚠️  Found 3698 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part11.parquet
+[2025-10-25 18:19:58] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part12.parquet
+[2025-10-25 18:19:58] ⚠️  Found 3666 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part12.parquet
+[2025-10-25 18:20:37] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part13.parquet
+[2025-10-25 18:20:37] ⚠️  Found 3709 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part13.parquet
+[2025-10-25 18:21:16] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part14.parquet
+[2025-10-25 18:21:16] ⚠️  Found 3708 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part14.parquet
+[2025-10-25 18:21:55] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part15.parquet
+[2025-10-25 18:21:55] ⚠️  Found 3648 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part15.parquet
+[2025-10-25 18:22:34] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part16.parquet
+[2025-10-25 18:22:34] ⚠️  Found 3655 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part16.parquet
+[2025-10-25 18:23:13] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part17.parquet
+[2025-10-25 18:23:13] ⚠️  Found 3683 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part17.parquet
+[2025-10-25 18:23:52] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part18.parquet
+[2025-10-25 18:23:52] ⚠️  Found 3664 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part18.parquet
+[2025-10-25 18:24:31] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part19.parquet
+[2025-10-25 18:24:31] ⚠️  Found 3665 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part19.parquet
+[2025-10-25 18:25:09] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part20.parquet
+[2025-10-25 18:25:09] ⚠️  Found 3683 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part20.parquet
+[2025-10-25 18:25:49] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part21.parquet
+[2025-10-25 18:25:49] ⚠️  Found 3652 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part21.parquet
+[2025-10-25 18:26:27] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part22.parquet
+[2025-10-25 18:26:27] ⚠️  Found 3704 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part22.parquet
+[2025-10-25 18:27:06] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part23.parquet
+[2025-10-25 18:27:06] ⚠️  Found 10450 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part23.parquet
+[2025-10-25 18:27:36] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part24.parquet
+[2025-10-25 18:27:36] ⚠️  Found 128468 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part24.parquet
+[2025-10-25 18:28:13] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part25.parquet
+[2025-10-25 18:28:13] ⚠️  Found 33419 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part25.parquet
+[2025-10-25 18:28:51] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part26.parquet
+[2025-10-25 18:28:51] ⚠️  Found 12058 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part26.parquet
+[2025-10-25 18:29:30] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part27.parquet
+[2025-10-25 18:29:30] ⚠️  Found 11106 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part27.parquet
+[2025-10-25 18:30:08] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part28.parquet
+[2025-10-25 18:30:08] ⚠️  Found 11054 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part28.parquet
+[2025-10-25 18:30:47] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part29.parquet
+[2025-10-25 18:30:47] ⚠️  Found 10685 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part29.parquet
+[2025-10-25 18:31:25] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part30.parquet
+[2025-10-25 18:31:25] ⚠️  Found 10222 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part30.parquet
+[2025-10-25 18:32:04] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part31.parquet
+[2025-10-25 18:32:04] ⚠️  Found 10209 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part31.parquet
+[2025-10-25 18:32:43] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part32.parquet
+[2025-10-25 18:32:43] ⚠️  Found 9138 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part32.parquet
+[2025-10-25 18:33:22] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part33.parquet
+[2025-10-25 18:33:22] ⚠️  Found 9676 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part33.parquet
+[2025-10-25 18:34:00] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part34.parquet
+[2025-10-25 18:34:00] ⚠️  Found 8876 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part34.parquet
+[2025-10-25 18:34:39] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part35.parquet
+[2025-10-25 18:34:39] ⚠️  Found 8177 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part35.parquet
+[2025-10-25 18:35:18] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part36.parquet
+[2025-10-25 18:35:18] ⚠️  Found 7771 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part36.parquet
+[2025-10-25 18:35:57] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part37.parquet
+[2025-10-25 18:35:57] ⚠️  Found 6980 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part37.parquet
+[2025-10-25 18:36:35] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part38.parquet
+[2025-10-25 18:36:35] ⚠️  Found 6438 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part38.parquet
+[2025-10-25 18:37:14] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part39.parquet
+[2025-10-25 18:37:14] ⚠️  Found 5971 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part39.parquet
+[2025-10-25 18:37:53] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part40.parquet
+[2025-10-25 18:37:53] ⚠️  Found 5806 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part40.parquet
+[2025-10-25 18:38:32] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part41.parquet
+[2025-10-25 18:38:32] ⚠️  Found 5252 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part41.parquet
+[2025-10-25 18:39:11] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part42.parquet
+[2025-10-25 18:39:11] ⚠️  Found 4765 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part42.parquet
+[2025-10-25 18:39:50] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part43.parquet
+[2025-10-25 18:39:50] ⚠️  Found 4114 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part43.parquet
+[2025-10-25 18:40:29] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part44.parquet
+[2025-10-25 18:40:29] ⚠️  Found 3697 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part44.parquet
+[2025-10-25 18:41:08] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part45.parquet
+[2025-10-25 18:41:08] ⚠️  Found 3632 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part45.parquet
+[2025-10-25 18:41:47] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part46.parquet
+[2025-10-25 18:41:47] ⚠️  Found 3583 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part46.parquet
+[2025-10-25 18:42:26] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part47.parquet
+[2025-10-25 18:42:26] ⚠️  Found 3645 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part47.parquet
+[2025-10-25 18:43:05] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part48.parquet
+[2025-10-25 18:43:05] ⚠️  Found 3627 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part48.parquet
+[2025-10-25 18:43:44] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part49.parquet
+[2025-10-25 18:43:44] ⚠️  Found 3593 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part49.parquet
+[2025-10-25 18:44:23] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part50.parquet
+[2025-10-25 18:44:23] ⚠️  Found 3643 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part50.parquet
+[2025-10-25 18:45:02] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part51.parquet
+[2025-10-25 18:45:02] ⚠️  Found 3652 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part51.parquet
+[2025-10-25 18:45:41] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part52.parquet
+[2025-10-25 18:45:41] ⚠️  Found 3705 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part52.parquet
+[2025-10-25 18:46:21] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part53.parquet
+[2025-10-25 18:46:21] ⚠️  Found 3688 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part53.parquet
+[2025-10-25 18:47:00] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part54.parquet
+[2025-10-25 18:47:00] ⚠️  Found 3640 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part54.parquet
+[2025-10-25 18:47:39] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part55.parquet
+[2025-10-25 18:47:39] ⚠️  Found 3636 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part55.parquet
+[2025-10-25 18:48:18] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part56.parquet
+[2025-10-25 18:48:18] ⚠️  Found 3575 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part56.parquet
+[2025-10-25 18:48:57] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part57.parquet
+[2025-10-25 18:48:57] ⚠️  Found 3613 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part57.parquet
+[2025-10-25 18:49:36] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part58.parquet
+[2025-10-25 18:49:36] ⚠️  Found 3621 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part58.parquet
+[2025-10-25 18:50:15] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part59.parquet
+[2025-10-25 18:50:15] ⚠️  Found 3601 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part59.parquet
+[2025-10-25 18:50:54] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part60.parquet
+[2025-10-25 18:50:54] ⚠️  Found 3570 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part60.parquet
+[2025-10-25 18:51:33] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part61.parquet
+[2025-10-25 18:51:33] ⚠️  Found 3619 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part61.parquet
+[2025-10-25 18:52:12] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part62.parquet
+[2025-10-25 18:52:12] ⚠️  Found 4409 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part62.parquet
+[2025-10-25 18:52:48] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part63.parquet
+[2025-10-25 18:52:48] ⚠️  Found 45326 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part63.parquet
+[2025-10-25 18:53:22] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part64.parquet
+[2025-10-25 18:53:22] ⚠️  Found 84974 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part64.parquet
+[2025-10-25 18:54:00] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part65.parquet
+[2025-10-25 18:54:00] ⚠️  Found 19389 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part65.parquet
+[2025-10-25 18:54:38] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part66.parquet
+[2025-10-25 18:54:38] ⚠️  Found 19228 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part66.parquet
+[2025-10-25 18:55:16] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part67.parquet
+[2025-10-25 18:55:16] ⚠️  Found 17644 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part67.parquet
+[2025-10-25 18:55:54] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part68.parquet
+[2025-10-25 18:55:54] ⚠️  Found 14845 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part68.parquet
+[2025-10-25 18:56:33] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part69.parquet
+[2025-10-25 18:56:33] ⚠️  Found 13233 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part69.parquet
+[2025-10-25 18:57:12] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part70.parquet
+[2025-10-25 18:57:12] ⚠️  Found 12254 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part70.parquet
+[2025-10-25 18:57:51] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part71.parquet
+[2025-10-25 18:57:51] ⚠️  Found 11026 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part71.parquet
+[2025-10-25 18:58:29] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part72.parquet
+[2025-10-25 18:58:29] ⚠️  Found 11373 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part72.parquet
+[2025-10-25 18:59:08] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part73.parquet
+[2025-10-25 18:59:08] ⚠️  Found 10098 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part73.parquet
+[2025-10-25 18:59:47] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part74.parquet
+[2025-10-25 18:59:47] ⚠️  Found 9514 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part74.parquet
+[2025-10-25 19:00:26] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part75.parquet
+[2025-10-25 19:00:26] ⚠️  Found 8442 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part75.parquet
+[2025-10-25 19:01:05] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part76.parquet
+[2025-10-25 19:01:05] ⚠️  Found 8018 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part76.parquet
+[2025-10-25 19:01:44] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part77.parquet
+[2025-10-25 19:01:44] ⚠️  Found 6683 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part77.parquet
+[2025-10-25 19:02:23] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part78.parquet
+[2025-10-25 19:02:23] ⚠️  Found 5182 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part78.parquet
+[2025-10-25 19:03:02] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part79.parquet
+[2025-10-25 19:03:02] ⚠️  Found 4225 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part79.parquet
+[2025-10-25 19:03:41] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part80.parquet
+[2025-10-25 19:03:41] ⚠️  Found 3672 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part80.parquet
+[2025-10-25 19:04:20] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part81.parquet
+[2025-10-25 19:04:20] ⚠️  Found 3701 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part81.parquet
+[2025-10-25 19:05:00] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part82.parquet
+[2025-10-25 19:05:00] ⚠️  Found 3696 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part82.parquet
+[2025-10-25 19:05:39] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part83.parquet
+[2025-10-25 19:05:39] ⚠️  Found 3673 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part83.parquet
+[2025-10-25 19:06:18] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part84.parquet
+[2025-10-25 19:06:18] ⚠️  Found 3678 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part84.parquet
+[2025-10-25 19:06:57] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part85.parquet
+[2025-10-25 19:06:57] ⚠️  Found 3702 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part85.parquet
+[2025-10-25 19:07:36] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part86.parquet
+[2025-10-25 19:07:36] ⚠️  Found 3719 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part86.parquet
+[2025-10-25 19:08:15] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part87.parquet
+[2025-10-25 19:08:15] ⚠️  Found 3719 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part87.parquet
+[2025-10-25 19:08:54] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part88.parquet
+[2025-10-25 19:08:54] ⚠️  Found 3729 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part88.parquet
+[2025-10-25 19:09:34] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part89.parquet
+[2025-10-25 19:09:34] ⚠️  Found 3741 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part89.parquet
+[2025-10-25 19:10:11] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part90.parquet
+[2025-10-25 19:10:11] ⚠️  Found 29931 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part90.parquet
+[2025-10-25 19:10:46] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part91.parquet
+[2025-10-25 19:10:46] ⚠️  Found 70180 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part91.parquet
+[2025-10-25 19:11:25] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part92.parquet
+[2025-10-25 19:11:25] ⚠️  Found 3607 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part92.parquet
+[2025-10-25 19:12:04] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part93.parquet
+[2025-10-25 19:12:04] ⚠️  Found 3563 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part93.parquet
+[2025-10-25 19:12:43] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part94.parquet
+[2025-10-25 19:12:43] ⚠️  Found 3617 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part94.parquet
+[2025-10-25 19:13:22] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part95.parquet
+[2025-10-25 19:13:22] ⚠️  Found 3648 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part95.parquet
+[2025-10-25 19:14:01] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part96.parquet
+[2025-10-25 19:14:01] ⚠️  Found 3557 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part96.parquet
+[2025-10-25 19:14:40] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part97.parquet
+[2025-10-25 19:14:40] ⚠️  Found 3591 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part97.parquet
+[2025-10-25 19:15:19] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part98.parquet
+[2025-10-25 19:15:19] ⚠️  Found 3628 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part98.parquet
+[2025-10-25 19:15:58] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part99.parquet
+[2025-10-25 19:15:58] ⚠️  Found 3616 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part99.parquet
+[2025-10-25 19:16:38] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part100.parquet
+[2025-10-25 19:16:38] ⚠️  Found 3641 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part100.parquet
+[2025-10-25 19:17:17] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part101.parquet
+[2025-10-25 19:17:17] ⚠️  Found 3578 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part101.parquet
+[2025-10-25 19:17:56] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part102.parquet
+[2025-10-25 19:17:56] ⚠️  Found 3621 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part102.parquet
+[2025-10-25 19:18:35] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part103.parquet
+[2025-10-25 19:18:35] ⚠️  Found 3603 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part103.parquet
+[2025-10-25 19:19:14] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part104.parquet
+[2025-10-25 19:19:14] ⚠️  Found 3617 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part104.parquet
+[2025-10-25 19:19:53] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part105.parquet
+[2025-10-25 19:19:53] ⚠️  Found 3605 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part105.parquet
+[2025-10-25 19:20:32] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part106.parquet
+[2025-10-25 19:20:32] ⚠️  Found 3652 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part106.parquet
+[2025-10-25 19:21:11] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part107.parquet
+[2025-10-25 19:21:11] ⚠️  Found 3643 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part107.parquet
+[2025-10-25 19:21:50] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part108.parquet
+[2025-10-25 19:21:50] ⚠️  Found 3658 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part108.parquet
+[2025-10-25 19:22:29] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part109.parquet
+[2025-10-25 19:22:29] ⚠️  Found 3642 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part109.parquet
+[2025-10-25 19:23:08] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part110.parquet
+[2025-10-25 19:23:08] ⚠️  Found 3689 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part110.parquet
+[2025-10-25 19:23:47] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part111.parquet
+[2025-10-25 19:23:47] ⚠️  Found 3650 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part111.parquet
+[2025-10-25 19:24:26] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part112.parquet
+[2025-10-25 19:24:26] ⚠️  Found 3661 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part112.parquet
+[2025-10-25 19:25:06] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part113.parquet
+[2025-10-25 19:25:06] ⚠️  Found 3649 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part113.parquet
+[2025-10-25 19:25:45] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part114.parquet
+[2025-10-25 19:25:45] ⚠️  Found 3681 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part114.parquet
+[2025-10-25 19:26:24] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part115.parquet
+[2025-10-25 19:26:24] ⚠️  Found 3701 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part115.parquet
+[2025-10-25 19:27:00] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part116.parquet
+[2025-10-25 19:27:00] ⚠️  Found 39991 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part116.parquet
+[2025-10-25 19:27:35] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part117.parquet
+[2025-10-25 19:27:35] ⚠️  Found 61835 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part117.parquet
+[2025-10-25 19:28:14] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part118.parquet
+[2025-10-25 19:28:14] ⚠️  Found 6803 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part118.parquet
+[2025-10-25 19:28:53] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part119.parquet
+[2025-10-25 19:28:53] ⚠️  Found 6680 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part119.parquet
+[2025-10-25 19:29:32] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part120.parquet
+[2025-10-25 19:29:32] ⚠️  Found 6351 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part120.parquet
+[2025-10-25 19:30:11] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part121.parquet
+[2025-10-25 19:30:11] ⚠️  Found 6189 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part121.parquet
+[2025-10-25 19:30:50] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part122.parquet
+[2025-10-25 19:30:50] ⚠️  Found 5778 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part122.parquet
+[2025-10-25 19:31:29] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part123.parquet
+[2025-10-25 19:31:29] ⚠️  Found 5779 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part123.parquet
+[2025-10-25 19:32:08] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part124.parquet
+[2025-10-25 19:32:08] ⚠️  Found 5447 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part124.parquet
+[2025-10-25 19:32:47] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part125.parquet
+[2025-10-25 19:32:47] ⚠️  Found 5128 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part125.parquet
+[2025-10-25 19:33:26] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part126.parquet
+[2025-10-25 19:33:26] ⚠️  Found 4852 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part126.parquet
+[2025-10-25 19:34:05] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part127.parquet
+[2025-10-25 19:34:05] ⚠️  Found 4476 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part127.parquet
+[2025-10-25 19:34:44] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part128.parquet
+[2025-10-25 19:34:44] ⚠️  Found 4292 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part128.parquet
+[2025-10-25 19:35:23] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part129.parquet
+[2025-10-25 19:35:23] ⚠️  Found 3991 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part129.parquet
+[2025-10-25 19:36:02] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part130.parquet
+[2025-10-25 19:36:02] ⚠️  Found 3781 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part130.parquet
+[2025-10-25 19:36:41] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part131.parquet
+[2025-10-25 19:36:41] ⚠️  Found 3571 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part131.parquet
+[2025-10-25 19:37:20] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part132.parquet
+[2025-10-25 19:37:20] ⚠️  Found 3518 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part132.parquet
+[2025-10-25 19:37:59] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part133.parquet
+[2025-10-25 19:37:59] ⚠️  Found 3554 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part133.parquet
+[2025-10-25 19:38:38] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part134.parquet
+[2025-10-25 19:38:38] ⚠️  Found 3551 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part134.parquet
+[2025-10-25 19:39:17] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part135.parquet
+[2025-10-25 19:39:17] ⚠️  Found 3557 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part135.parquet
+[2025-10-25 19:39:56] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part136.parquet
+[2025-10-25 19:39:56] ⚠️  Found 3544 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part136.parquet
+[2025-10-25 19:40:35] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part137.parquet
+[2025-10-25 19:40:35] ⚠️  Found 3571 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part137.parquet
+[2025-10-25 19:41:14] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part138.parquet
+[2025-10-25 19:41:14] ⚠️  Found 3549 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part138.parquet
+[2025-10-25 19:41:53] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part139.parquet
+[2025-10-25 19:41:53] ⚠️  Found 3569 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part139.parquet
+[2025-10-25 19:42:31] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part140.parquet
+[2025-10-25 19:42:31] ⚠️  Found 28152 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part140.parquet
+[2025-10-25 19:43:08] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part141.parquet
+[2025-10-25 19:43:08] ⚠️  Found 34165 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part141.parquet
+[2025-10-25 19:43:44] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part142.parquet
+[2025-10-25 19:43:45] ⚠️  Found 36409 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part142.parquet
+[2025-10-25 19:44:24] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part143.parquet
+[2025-10-25 19:44:24] ⚠️  Found 3601 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part143.parquet
+[2025-10-25 19:45:03] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part144.parquet
+[2025-10-25 19:45:03] ⚠️  Found 3582 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part144.parquet
+[2025-10-25 19:45:42] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part145.parquet
+[2025-10-25 19:45:42] ⚠️  Found 3596 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part145.parquet
+[2025-10-25 19:46:21] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part146.parquet
+[2025-10-25 19:46:21] ⚠️  Found 3563 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part146.parquet
+[2025-10-25 19:47:00] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part147.parquet
+[2025-10-25 19:47:00] ⚠️  Found 3600 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part147.parquet
+[2025-10-25 19:47:40] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part148.parquet
+[2025-10-25 19:47:40] ⚠️  Found 3674 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part148.parquet
+[2025-10-25 19:48:19] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part149.parquet
+[2025-10-25 19:48:19] ⚠️  Found 3587 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part149.parquet
+[2025-10-25 19:48:58] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part150.parquet
+[2025-10-25 19:48:58] ⚠️  Found 3624 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part150.parquet
+[2025-10-25 19:49:37] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part151.parquet
+[2025-10-25 19:49:37] ⚠️  Found 3558 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part151.parquet
+[2025-10-25 19:50:16] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part152.parquet
+[2025-10-25 19:50:16] ⚠️  Found 3641 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part152.parquet
+[2025-10-25 19:50:56] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part153.parquet
+[2025-10-25 19:50:56] ⚠️  Found 3613 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part153.parquet
+[2025-10-25 19:51:35] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part154.parquet
+[2025-10-25 19:51:35] ⚠️  Found 3654 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part154.parquet
+[2025-10-25 19:52:14] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part155.parquet
+[2025-10-25 19:52:14] ⚠️  Found 3596 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part155.parquet
+[2025-10-25 19:52:53] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part156.parquet
+[2025-10-25 19:52:53] ⚠️  Found 3649 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part156.parquet
+[2025-10-25 19:53:32] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part157.parquet
+[2025-10-25 19:53:32] ⚠️  Found 3596 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part157.parquet
+[2025-10-25 19:54:11] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part158.parquet
+[2025-10-25 19:54:11] ⚠️  Found 3661 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part158.parquet
+[2025-10-25 19:54:51] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part159.parquet
+[2025-10-25 19:54:51] ⚠️  Found 3672 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part159.parquet
+[2025-10-25 19:55:30] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part160.parquet
+[2025-10-25 19:55:30] ⚠️  Found 3645 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part160.parquet
+[2025-10-25 19:56:09] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part161.parquet
+[2025-10-25 19:56:09] ⚠️  Found 3679 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part161.parquet
+[2025-10-25 19:56:48] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part162.parquet
+[2025-10-25 19:56:48] ⚠️  Found 3676 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part162.parquet
+[2025-10-25 19:57:26] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part163.parquet
+[2025-10-25 19:57:26] ⚠️  Found 22579 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part163.parquet
+[2025-10-25 19:58:04] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part164.parquet
+[2025-10-25 19:58:04] ⚠️  Found 18291 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part164.parquet
+[2025-10-25 19:58:39] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part165.parquet
+[2025-10-25 19:58:39] ⚠️  Found 59692 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part165.parquet
+[2025-10-25 19:59:18] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part166.parquet
+[2025-10-25 19:59:18] ⚠️  Found 8327 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part166.parquet
+[2025-10-25 19:59:57] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part167.parquet
+[2025-10-25 19:59:57] ⚠️  Found 8474 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part167.parquet
+[2025-10-25 20:00:36] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part168.parquet
+[2025-10-25 20:00:36] ⚠️  Found 8471 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part168.parquet
+[2025-10-25 20:01:14] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part169.parquet
+[2025-10-25 20:01:14] ⚠️  Found 8084 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part169.parquet
+[2025-10-25 20:01:53] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part170.parquet
+[2025-10-25 20:01:53] ⚠️  Found 8461 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part170.parquet
+[2025-10-25 20:02:32] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part171.parquet
+[2025-10-25 20:02:32] ⚠️  Found 8187 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part171.parquet
+[2025-10-25 20:03:11] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part172.parquet
+[2025-10-25 20:03:11] ⚠️  Found 8685 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part172.parquet
+[2025-10-25 20:03:50] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part173.parquet
+[2025-10-25 20:03:50] ⚠️  Found 8774 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part173.parquet
+[2025-10-25 20:04:29] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part174.parquet
+[2025-10-25 20:04:29] ⚠️  Found 8654 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part174.parquet
+[2025-10-25 20:05:08] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part175.parquet
+[2025-10-25 20:05:08] ⚠️  Found 8974 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part175.parquet
+[2025-10-25 20:05:46] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part176.parquet
+[2025-10-25 20:05:46] ⚠️  Found 9204 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part176.parquet
+[2025-10-25 20:06:25] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part177.parquet
+[2025-10-25 20:06:25] ⚠️  Found 8974 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part177.parquet
+[2025-10-25 20:07:04] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part178.parquet
+[2025-10-25 20:07:04] ⚠️  Found 10093 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part178.parquet
+[2025-10-25 20:07:43] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part179.parquet
+[2025-10-25 20:07:43] ⚠️  Found 10148 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part179.parquet
+[2025-10-25 20:08:21] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part180.parquet
+[2025-10-25 20:08:21] ⚠️  Found 10760 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part180.parquet
+[2025-10-25 20:09:00] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part181.parquet
+[2025-10-25 20:09:00] ⚠️  Found 11671 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part181.parquet
+[2025-10-25 20:09:38] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part182.parquet
+[2025-10-25 20:09:38] ⚠️  Found 11700 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part182.parquet
+[2025-10-25 20:10:17] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part183.parquet
+[2025-10-25 20:10:17] ⚠️  Found 12083 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part183.parquet
+[2025-10-25 20:10:55] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part184.parquet
+[2025-10-25 20:10:55] ⚠️  Found 13164 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part184.parquet
+[2025-10-25 20:11:34] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part185.parquet
+[2025-10-25 20:11:34] ⚠️  Found 13668 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part185.parquet
+[2025-10-25 20:12:12] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part186.parquet
+[2025-10-25 20:12:12] ⚠️  Found 14218 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part186.parquet
+[2025-10-25 20:12:49] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part187.parquet
+[2025-10-25 20:12:49] ⚠️  Found 40121 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part187.parquet
+[2025-10-25 20:13:27] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part188.parquet
+[2025-10-25 20:13:27] ⚠️  Found 12351 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part188.parquet
+[2025-10-25 20:14:02] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part189.parquet
+[2025-10-25 20:14:02] ⚠️  Found 64155 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part189.parquet
+[2025-10-25 20:14:41] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part190.parquet
+[2025-10-25 20:14:41] ⚠️  Found 4497 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part190.parquet
+[2025-10-25 20:15:21] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part191.parquet
+[2025-10-25 20:15:21] ⚠️  Found 4775 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part191.parquet
+[2025-10-25 20:16:00] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part192.parquet
+[2025-10-25 20:16:00] ⚠️  Found 4553 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part192.parquet
+[2025-10-25 20:16:39] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part193.parquet
+[2025-10-25 20:16:39] ⚠️  Found 3843 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part193.parquet
+[2025-10-25 20:17:18] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part194.parquet
+[2025-10-25 20:17:18] ⚠️  Found 3605 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part194.parquet
+[2025-10-25 20:17:57] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part195.parquet
+[2025-10-25 20:17:57] ⚠️  Found 3311 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part195.parquet
+[2025-10-25 20:18:36] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part196.parquet
+[2025-10-25 20:18:36] ⚠️  Found 3385 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part196.parquet
+[2025-10-25 20:19:15] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part197.parquet
+[2025-10-25 20:19:15] ⚠️  Found 3447 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part197.parquet
+[2025-10-25 20:19:54] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part198.parquet
+[2025-10-25 20:19:54] ⚠️  Found 3358 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part198.parquet
+[2025-10-25 20:20:33] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part199.parquet
+[2025-10-25 20:20:33] ⚠️  Found 3548 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part199.parquet
+[2025-10-25 20:21:12] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part200.parquet
+[2025-10-25 20:21:12] ⚠️  Found 3683 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part200.parquet
+[2025-10-25 20:21:51] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part201.parquet
+[2025-10-25 20:21:51] ⚠️  Found 3456 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part201.parquet
+[2025-10-25 20:22:30] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part202.parquet
+[2025-10-25 20:22:30] ⚠️  Found 3316 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part202.parquet
+[2025-10-25 20:23:09] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part203.parquet
+[2025-10-25 20:23:09] ⚠️  Found 3133 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part203.parquet
+[2025-10-25 20:23:48] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part204.parquet
+[2025-10-25 20:23:48] ⚠️  Found 3160 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part204.parquet
+[2025-10-25 20:24:27] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part205.parquet
+[2025-10-25 20:24:27] ⚠️  Found 3587 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part205.parquet
+[2025-10-25 20:25:06] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part206.parquet
+[2025-10-25 20:25:06] ⚠️  Found 3572 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part206.parquet
+[2025-10-25 20:25:45] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part207.parquet
+[2025-10-25 20:25:45] ⚠️  Found 3557 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part207.parquet
+[2025-10-25 20:26:24] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part208.parquet
+[2025-10-25 20:26:24] ⚠️  Found 3493 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part208.parquet
+[2025-10-25 20:27:03] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part209.parquet
+[2025-10-25 20:27:03] ⚠️  Found 3469 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part209.parquet
+[2025-10-25 20:27:38] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part210.parquet
+[2025-10-25 20:27:38] ⚠️  Found 64029 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part210.parquet
+[2025-10-25 20:28:14] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part211.parquet
+[2025-10-25 20:28:14] ⚠️  Found 49589 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part211.parquet
+[2025-10-25 20:28:50] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part212.parquet
+[2025-10-25 20:28:50] ⚠️  Found 35121 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part212.parquet
+[2025-10-25 20:29:28] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part213.parquet
+[2025-10-25 20:29:28] ⚠️  Found 29309 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part213.parquet
+[2025-10-25 20:30:05] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part214.parquet
+[2025-10-25 20:30:05] ⚠️  Found 25497 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part214.parquet
+[2025-10-25 20:30:43] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part215.parquet
+[2025-10-25 20:30:43] ⚠️  Found 19377 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part215.parquet
+[2025-10-25 20:31:22] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part216.parquet
+[2025-10-25 20:31:22] ⚠️  Found 11291 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part216.parquet
+[2025-10-25 20:32:00] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part217.parquet
+[2025-10-25 20:32:00] ⚠️  Found 7396 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part217.parquet
+[2025-10-25 20:32:39] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part218.parquet
+[2025-10-25 20:32:39] ⚠️  Found 3782 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part218.parquet
+[2025-10-25 20:33:19] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part219.parquet
+[2025-10-25 20:33:19] ⚠️  Found 3573 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part219.parquet
+[2025-10-25 20:33:58] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part220.parquet
+[2025-10-25 20:33:58] ⚠️  Found 3643 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part220.parquet
+[2025-10-25 20:34:37] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part221.parquet
+[2025-10-25 20:34:37] ⚠️  Found 3657 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part221.parquet
+[2025-10-25 20:35:16] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part222.parquet
+[2025-10-25 20:35:16] ⚠️  Found 3552 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part222.parquet
+[2025-10-25 20:35:54] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part223.parquet
+[2025-10-25 20:35:54] ⚠️  Found 12386 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part223.parquet
+[2025-10-25 20:36:33] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part224.parquet
+[2025-10-25 20:36:33] ⚠️  Found 8423 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part224.parquet
+[2025-10-25 20:37:10] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part225.parquet
+[2025-10-25 20:37:10] ⚠️  Found 37124 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part225.parquet
+[2025-10-25 20:37:49] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part226.parquet
+[2025-10-25 20:37:49] ⚠️  Found 3579 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part226.parquet
+[2025-10-25 20:38:28] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part227.parquet
+[2025-10-25 20:38:28] ⚠️  Found 3440 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part227.parquet
+[2025-10-25 20:39:07] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part228.parquet
+[2025-10-25 20:39:07] ⚠️  Found 3449 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part228.parquet
+[2025-10-25 20:39:46] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part229.parquet
+[2025-10-25 20:39:46] ⚠️  Found 3519 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part229.parquet
+[2025-10-25 20:40:25] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part230.parquet
+[2025-10-25 20:40:25] ⚠️  Found 3552 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part230.parquet
+[2025-10-25 20:41:04] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part231.parquet
+[2025-10-25 20:41:04] ⚠️  Found 3569 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part231.parquet
+[2025-10-25 20:41:43] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part232.parquet
+[2025-10-25 20:41:43] ⚠️  Found 3513 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part232.parquet
+[2025-10-25 20:42:22] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part233.parquet
+[2025-10-25 20:42:22] ⚠️  Found 3492 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part233.parquet
+[2025-10-25 20:43:01] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part234.parquet
+[2025-10-25 20:43:01] ⚠️  Found 3738 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part234.parquet
+[2025-10-25 20:43:40] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part235.parquet
+[2025-10-25 20:43:40] ⚠️  Found 3632 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part235.parquet
+[2025-10-25 20:44:15] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part236.parquet
+[2025-10-25 20:44:16] ⚠️  Found 48651 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part236.parquet
+[2025-10-25 20:44:54] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part237.parquet
+[2025-10-25 20:44:54] ⚠️  Found 13926 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part237.parquet
+[2025-10-25 20:45:32] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part238.parquet
+[2025-10-25 20:45:32] ⚠️  Found 18186 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part238.parquet
+[2025-10-25 20:46:10] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part239.parquet
+[2025-10-25 20:46:10] ⚠️  Found 13527 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part239.parquet
+[2025-10-25 20:46:49] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part240.parquet
+[2025-10-25 20:46:49] ⚠️  Found 9624 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part240.parquet
+[2025-10-25 20:47:28] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part241.parquet
+[2025-10-25 20:47:28] ⚠️  Found 6397 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part241.parquet
+[2025-10-25 20:48:07] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part242.parquet
+[2025-10-25 20:48:07] ⚠️  Found 5178 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part242.parquet
+[2025-10-25 20:48:46] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part243.parquet
+[2025-10-25 20:48:46] ⚠️  Found 3434 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part243.parquet
+[2025-10-25 20:49:25] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part244.parquet
+[2025-10-25 20:49:25] ⚠️  Found 3707 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part244.parquet
+[2025-10-25 20:50:04] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part245.parquet
+[2025-10-25 20:50:04] ⚠️  Found 3268 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part245.parquet
+[2025-10-25 20:50:41] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part246.parquet
+[2025-10-25 20:50:41] ⚠️  Found 38793 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part246.parquet
+[2025-10-25 20:51:19] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part247.parquet
+[2025-10-25 20:51:19] ⚠️  Found 18847 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part247.parquet
+[2025-10-25 20:51:58] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part248.parquet
+[2025-10-25 20:51:58] ⚠️  Found 12539 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part248.parquet
+[2025-10-25 20:52:37] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part249.parquet
+[2025-10-25 20:52:37] ⚠️  Found 5252 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part249.parquet
+[2025-10-25 20:53:16] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part250.parquet
+[2025-10-25 20:53:16] ⚠️  Found 3254 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part250.parquet
+[2025-10-25 20:53:55] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part251.parquet
+[2025-10-25 20:53:55] ⚠️  Found 3394 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part251.parquet
+[2025-10-25 20:54:34] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part252.parquet
+[2025-10-25 20:54:34] ⚠️  Found 3739 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part252.parquet
+[2025-10-25 20:55:12] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part253.parquet
+[2025-10-25 20:55:12] ⚠️  Found 26314 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part253.parquet
+[2025-10-25 20:55:51] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part254.parquet
+[2025-10-25 20:55:51] ⚠️  Found 3482 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part254.parquet
+[2025-10-25 20:56:30] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part255.parquet
+[2025-10-25 20:56:30] ⚠️  Found 3200 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part255.parquet
+[2025-10-25 20:57:09] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part256.parquet
+[2025-10-25 20:57:09] ⚠️  Found 3451 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part256.parquet
+[2025-10-25 20:57:48] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part257.parquet
+[2025-10-25 20:57:48] ⚠️  Found 5935 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part257.parquet
+[2025-10-25 20:58:26] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part258.parquet
+[2025-10-25 20:58:26] ⚠️  Found 19618 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part258.parquet
+[2025-10-25 20:59:05] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part259.parquet
+[2025-10-25 20:59:05] ⚠️  Found 13072 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part259.parquet
+[2025-10-25 20:59:43] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part260.parquet
+[2025-10-25 20:59:43] ⚠️  Found 17162 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part260.parquet
+[2025-10-25 21:00:21] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part261.parquet
+[2025-10-25 21:00:21] ⚠️  Found 13316 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part261.parquet
+[2025-10-25 21:01:00] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part262.parquet
+[2025-10-25 21:01:00] ⚠️  Found 18314 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part262.parquet
+[2025-10-25 21:01:37] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part263.parquet
+[2025-10-25 21:01:37] ⚠️  Found 32570 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part263.parquet
+[2025-10-25 21:02:15] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part264.parquet
+[2025-10-25 21:02:15] ⚠️  Found 7152 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part264.parquet
+[2025-10-25 21:02:54] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part265.parquet
+[2025-10-25 21:02:54] ⚠️  Found 9529 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part265.parquet
+[2025-10-25 21:03:32] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part266.parquet
+[2025-10-25 21:03:33] ⚠️  Found 14031 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part266.parquet
+[2025-10-25 21:04:10] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part267.parquet
+[2025-10-25 21:04:10] ⚠️  Found 33367 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part267.parquet
+[2025-10-25 21:04:48] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part268.parquet
+[2025-10-25 21:04:48] ⚠️  Found 15562 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part268.parquet
+[2025-10-25 21:05:26] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part269.parquet
+[2025-10-25 21:05:26] ⚠️  Found 11011 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part269.parquet
+[2025-10-25 21:06:05] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part270.parquet
+[2025-10-25 21:06:05] ⚠️  Found 14316 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part270.parquet
+[2025-10-25 21:06:33] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part271.parquet
+[2025-10-25 21:06:33] ⚠️  Found 153700 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part271.parquet
+[2025-10-25 21:07:06] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part272.parquet
+[2025-10-25 21:07:06] ⚠️  Found 95762 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part272.parquet
+[2025-10-25 21:07:39] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part273.parquet
+[2025-10-25 21:07:39] ⚠️  Found 84203 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part273.parquet
+[2025-10-25 21:08:16] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part274.parquet
+[2025-10-25 21:08:16] ⚠️  Found 37415 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part274.parquet
+[2025-10-25 21:08:53] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part275.parquet
+[2025-10-25 21:08:53] ⚠️  Found 37453 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part275.parquet
+[2025-10-25 21:09:29] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part276.parquet
+[2025-10-25 21:09:29] ⚠️  Found 37315 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part276.parquet
+[2025-10-25 21:10:07] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part277.parquet
+[2025-10-25 21:10:07] ⚠️  Found 29228 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part277.parquet
+[2025-10-25 21:10:45] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part278.parquet
+[2025-10-25 21:10:45] ⚠️  Found 12122 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part278.parquet
+[2025-10-25 21:11:19] ✅ Wrote 200000 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part279.parquet
+[2025-10-25 21:11:19] ⚠️  Found 70844 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part279.parquet
+[2025-10-25 21:11:29] ✅ Wrote 82601 rows to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/all_with_nan_rect12/gdf_rect12_slope_geology_part280.parquet
+[2025-10-25 21:11:30] ⚠️  Found 82601 missing NDVI_IDs. Saved to /scratch/10725/mfidansoy1777/ndvi_index_added_slope_geology/rect12/missing_ndvi_rows_rect12/missing_NDVI_ID_rect12_part280.parquet
