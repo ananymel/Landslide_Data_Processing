@@ -1,0 +1,1 @@
+if you can just put the rest of the parquet files in the folder, and run the script that would be great. All you need to do is put the bbox file and ndvi json file in the same folder as the script and the parquet files in a folder called rect_parquets. You can change the names, but you would need to change them in the script as well. 
