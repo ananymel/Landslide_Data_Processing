@@ -2,13 +2,15 @@ import json
 import pandas as pd
 import os
 from tqdm import tqdm
+import sys
 
-os.makedirs("ndvi_split_excels", exist_ok=True)
+sys.path.append("/home1/10725/mfidansoy1777/.local/lib/python3.12/site-packages")
+os.makedirs("/scratch/10725/mfidansoy1777/divide_ndvi_to_rects/ndvi_split_excels", exist_ok=True)
 
-with open("ndvi_dict.json", "r") as f:
+with open("/scratch/10725/mfidansoy1777/divide_ndvi_to_rects/ndvi_dict.json", "r") as f:
     ndvi_dict = json.load(f)
 
-with open("bbox_master_map.json", "r") as f:
+with open("/scratch/10725/mfidansoy1777/divide_ndvi_to_rects/bbox_master_map.json", "r") as f:
     bbox_map = json.load(f)
 
 bbox_df = pd.DataFrame([
@@ -23,10 +25,10 @@ bbox_df = pd.DataFrame([
     for k, v in bbox_map.items()
 ])
 
-rect_files = [f for f in os.listdir("rect_parquets") if f.endswith(".parquet")]
+rect_files = [f for f in os.listdir("/scratch/10725/mfidansoy1777/divide_ndvi_to_rects/rect_parquets") if f.endswith(".parquet")]
 
 for rect_file in tqdm(rect_files):
-    rect_path = os.path.join("rect_parquets", rect_file)
+    rect_path = os.path.join("/scratch/10725/mfidansoy1777/divide_ndvi_to_rects/rect_parquets", rect_file)
     rect_df = pd.read_parquet(rect_path)
 
     rect_xmin = rect_df["X_min"].min()
@@ -59,5 +61,5 @@ for rect_file in tqdm(rect_files):
 
     rect_ndvi_df = pd.DataFrame(rows, columns=columns)
 
-    output_path = os.path.join("ndvi_split_excels", rect_file.replace(".parquet", "_ndvi_matrix.xlsx"))
+    output_path = os.path.join("/scratch/10725/mfidansoy1777/divide_ndvi_to_rects/ndvi_split_excels", rect_file.replace(".parquet", "_ndvi_matrix.xlsx"))
     rect_ndvi_df.to_excel(output_path, index=False)
